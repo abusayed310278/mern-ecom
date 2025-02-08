@@ -1,7 +1,11 @@
-import { useState } from "react";
+import './App.css'
 
-const App = () => {
-  return <div className="text-red-400">App hello world</div>;
-};
+function App ()  {
+  return (
+    <>
+      <h1 className='text-20xl'>hello world</h1>
+    </>
+  )
+}
 
 export default App;
